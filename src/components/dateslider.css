@@ -1,0 +1,53 @@
+.slider {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.slider li {
+    margin: 15px 0;
+    padding: 10px 0;
+    width: 60px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider li:hover {
+    background-color: rgb(222, 96, 89, 0.7);
+}
+.slider li.selected {
+    background-color: #DE6059;
+    color: #fff;
+}
+.slider li.grey {
+    cursor: default;
+    color: #666;        
+}
+.slider li.grey:hover {
+   background: transparent;        
+}
+.slider .date {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6; 
+}
+.slider .day {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.slider .fill {
+    border-radius: 100%;
+    background: #000;
+    width: 4px;
+    height: 4px;
+    align-self: center;
+}
+
+.slider li.selected .fill {
+    background: #fff;
+}

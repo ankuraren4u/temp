@@ -1,0 +1,80 @@
+{
+	"user": {
+		"firstName": "Nina",
+		"lastName": "Malvin",
+		"subscriptionType": "Corporate"
+	},
+	"sessions": [{
+			"class": "Power Yoga",
+			"teacher": "Larissa",
+			"start": "2021-08-02 22:00",
+			"end": "2021-08-02 23:00",
+			"location": "online",
+			"materials": "Yoga mat",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/Erika_Tourell.028ad2b3.jpg"
+		},
+		{
+			"class": "Meditation",
+			"teacher": "Craig",
+			"start": "2021-09-02 19:00",
+			"end": "2021-09-02 20:00",
+			"location": "online",
+			"materials": "Blocks, Bolster, Blanket",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/Craig2-min.jpg"
+		},
+		{
+			"class": "Chanting",
+			"teacher": "David",
+			"start": "2021-10-02 15:00",
+			"end": "2021-10-02 16:00",
+			"location": "online",
+			"materials": "Blocks, Bolster, Blanket",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/David-Sye.jpg"
+		},
+		{
+			"class": "Pranayama",
+			"teacher": "Larissa",
+			"start": "2021-28-01 10:00",
+			"end": "2021-28-01 11:00",
+			"location": "online",
+			"materials": "Blocks, Bolster, Blanket",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/Erika_Tourell.028ad2b3.jpg"
+		},
+		{
+			"class": "Power Yoga",
+			"teacher": "Ludwig",
+			"start": "2021-29-01 19:00",
+			"end": "2021-29-01 20:00",
+			"location": "online",
+			"materials": "Yoga Mat, Blanket",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/WhatsApp%20Image%202021-01-10%20at%2020.05.21%20%281%29.jpeg"
+		},
+		{
+			"class": "Vedic Meditation",
+			"teacher": "Larissa",
+			"start": "2021-29-01 12:00",
+			"end": "2021-29-01 13:00",
+			"location": "online",
+			"materials": "Blanket",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/Erika_Tourell.028ad2b3.jpg"
+		},
+		{
+			"class": "Mindfulness",
+			"teacher": "Ludwig",
+			"start": "2021-30-01 19:00",
+			"end": "2021-30-01 20:00",
+			"location": "online",
+			"materials": "Bolster, Blanket",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/WhatsApp%20Image%202021-01-10%20at%2020.05.21%20%281%29.jpeg"
+		},
+		{
+			"class": "Meditation",
+			"teacher": "Craig",
+			"start": "2021-30-01 07:00",
+			"end": "2021-30-01 08:00",
+			"location": "online",
+			"materials": "Blocks, Bolster, Blanket",
+			"photo": "https://wone-test.s3.eu-west-2.amazonaws.com/Craig2-min.jpg"
+		}
+	]
+}

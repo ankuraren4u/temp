@@ -1,0 +1,87 @@
+.session {
+    margin: 30px 0;
+    position: relative;
+}
+.session-header {
+    margin-bottom: 10px;
+    color: #666;
+    font-weight: bold;
+    display: flex;
+}
+.session-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.session .thumbnail {
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+.session .thumbnail img {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.session .content {
+    margin-left: 10px;
+    line-height: 1.8;  
+    flex: 1;
+}
+.session .action {
+    background-color: #DE6059;
+    padding:10px 20px;
+    margin-right: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.session .title {
+    font-weight: 600
+}
+.session .subtitle {
+    font-size: 18px;
+    color: #333;
+}
+.session .action:hover {
+    opacity: 0.8;
+}
+.session .location {
+    margin-left: 10px;
+    color: #999;    
+    text-transform: capitalize;
+}
+.session .bullet {
+    margin-right: 5px;
+    color:#000;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-top:-4px;
+    display: inline-block;
+}
+
+.session .fill {
+    border-radius: 100%;
+    background: #DE6059;
+    width: 8px;
+    height: 8px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.session + .session:before {
+    content: " ";
+    position: absolute;
+    border-left: 1px solid #DE6059;
+    opacity: 0.2;
+    height: 162px;
+    width: 1px;
+    left: 4px;
+    margin-bottom: -6px;
+    bottom: 100%;
+}

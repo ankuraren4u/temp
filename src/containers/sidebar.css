@@ -1,0 +1,41 @@
+.sidebar {
+    display: flex;
+    min-width: 300px;
+    min-height: 100vh;
+    background-color: #16294B;
+    flex-direction: column;
+    color: #fff;
+    text-align: left;  
+}
+.sidebar .background {
+    background: url('./../icons/background.png')  no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    height:200px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.sidebar .logo {
+    margin-left: 10px;
+    margin-top: -70px;
+}
+.sidebar .welcome-title {
+    padding: 10px 20px ;
+    font-size: 18px;
+}
+
+.sidebar .welcome-subtitle {
+    padding: 0px 20px;
+}
+
+.sidebar .nav {
+    margin: 20px;
+    flex: 1;
+}
+.sidebar .profile {
+    padding: 20px 40px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.sidebar .name {
+    font-weight: 600;
+}

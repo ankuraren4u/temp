@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import { Sidebar } from './containers/Sidebar';
+import { MainPane } from './containers/MainPane';
+import { RightPane } from './containers/RightPane';
+import mockData from "./mock-data.json";
+import {useEffect, useState, useCallback} from "react";
 
 function App() {
+  let [response, updateResponse] = useState(null);
+  let [activeSession, updateActiveSession] = useState(null);
+
+  useEffect(() => {
+    console.log(mockData);
+    updateResponse(mockData);
+  }, []);
+  const handleActiveSession = useCallback((session) => {
+    updateActiveSession(session);
+  }, [])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        response ? 
+          <>
+          <Sidebar user={response.user} />
+          <MainPane sessions={response.sessions} handleActiveSession={handleActiveSession} />
+          <RightPane session={activeSession}/>
+          </>
+        : 
+          null 
+      }
     </div>
   );
 }

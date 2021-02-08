@@ -1,0 +1,16 @@
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.nav li {
+    line-height: 40px;
+    vertical-align: middle;
+    border-radius: 3px;
+    padding-left: 40px;
+}
+.nav li:hover {
+    background-color: #D95E58;
+
+}
